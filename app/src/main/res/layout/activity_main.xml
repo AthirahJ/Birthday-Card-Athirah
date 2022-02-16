@@ -15,7 +15,8 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/androidparty" />
+        app:srcCompat="@drawable/androidparty"
+        android:contentDescription="TODO" />
 
     <TextView
         android:layout_width="385dp"
@@ -33,7 +34,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From Emma"
+        android:text="@string/from_emma"
         android:textSize="36sp"
         tools:layout_editor_absoluteX="198dp"
         tools:layout_editor_absoluteY="667dp" />
